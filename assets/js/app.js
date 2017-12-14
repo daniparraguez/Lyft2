@@ -10,8 +10,15 @@ $(document).ready(function() {
 
 	$(".sign-up").click(function(){
 		$("#main").hide();
-		$("#sign-in").append("")
-
+		$("#sign-up").append("<span class='glyphicon glyphicon-triangle-left' aria-hidden='true'></span>"+
+		"<h1 class='text-center'>Sign Up</h1>"+"<p class='text-center'>Join now for the free ride credit</p>"+
+		"<div class='row'>"+"<div class='col-lg-6'>"+"<div class='input-group'>"+"<div class='input-group-btn'>"+
+		"<button type='button' class='btn btn-default dropdown-toggle' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Band<span class='caret'</span></button>"+
+		"<ul class='dropdown-menu'>"+"<li><a href='#'>Band1</a></li>"+"<li><a href='#'>Band2</a></li>"+
+		"<li><a href='#'>Band3</a></li>"+"<li role='separator' class='divider'></li>"+"<li><a href='#'>Another</a></li>"+
+		"</ul></div><!-- /btn-group --><input type='text' class='form-control' aria-label='...'></div><!-- /input-group -->"+
+		"<button type='button' class='btn btn-default sign-up'>Next!</button>");
+		$
 
 	});
 
