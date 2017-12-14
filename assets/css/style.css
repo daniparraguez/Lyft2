@@ -1,0 +1,19 @@
+body{
+	padding: 0;
+	color:#D0823C;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#splash{
+	color:#D0823C;
+	text-align: center;
+	margin-top: 35vh;
+	margin-bottom: 65vh;
+}
+.logo{
+	height: 4em;
+	margin:auto;
+}
+#main{
+
+}
